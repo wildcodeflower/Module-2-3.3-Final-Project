@@ -8,9 +8,32 @@
     color: #243e63;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     display: inline;
     text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .row {
@@ -76,6 +99,22 @@ NAV
     margin: 0 24px;
 }
 
+.nav__link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #6415ff;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+
+.nav__link:hover:after {
+  opacity: 1;
+}
+
 .nav__link--primary:hover {
     background-color: rgba(80,17,204);
     color: #fff;
@@ -97,3 +136,12 @@ NAV
 .login {
     margin-left: 48px;
 }
+
+/* 
+HEADER
+*/
+
+.container {
+    padding: 96px 0;
+}
+
