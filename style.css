@@ -465,7 +465,7 @@ STEPS
     line-height: 1;
 }
 
-.steps__description {
+.step__description {
     display: flex;
     flex-direction: column;
     margin-left: 24px;
