@@ -300,10 +300,13 @@ FEATURES
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature {
-    width: calc(100% / 3);
+    max-width: 300px;
+    width: 100%;
 }
 
 .feature__row {
