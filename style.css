@@ -36,6 +36,22 @@ p {
     line-height: 1.5;
 }
 
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(80, 17, 204);
+}
+
 .section__tag {
   font-size: 16px;
   color: #6415ff;
@@ -347,3 +363,145 @@ FEATURES
     margin: 0 auto;
 }
 
+/*
+
+QUALITY WORK
+
+*/
+
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#quality .section__title,
+#values .section__title {
+    line-height: 1.25;
+} 
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.quality__description {
+    max-width: 576px;
+    margin-right: 64px;
+}
+
+.quality__description,
+.quality__img--wrapper {
+    width: 50%;
+}
+
+.quality__img--wrapper {
+    border-radius: 4px;
+    border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
+}
+
+.quality__grid {
+    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+}
+
+.quality__img {
+    z-index: 1;
+}
+
+/*
+
+STEPS
+
+*/
+
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+}
+
+.steps__description,
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.steps__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
+}
+
+/*
+
+VALUES
+
+*/
